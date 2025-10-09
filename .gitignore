@@ -1,0 +1,27 @@
+
+[200~cat > .gitignore <<'EOF'
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.runs/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+.Xil/
+*.xpr
+
+# Reports, temp data
+*.rpt
+*.wdb
+*.dcp
+*.vds
+*.vdi
+*.backup.jou
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
